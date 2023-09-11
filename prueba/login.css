@@ -1,0 +1,84 @@
+:root{
+    --colorTextos:#e65a5a67;
+}
+
+*,
+::before,
+::after{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Roboto';
+    background: #1A2980;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #26D0CE, #1A2980);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1{
+        text-align: center;
+        font-weight: 700;
+    }
+
+    form{
+        background: #ffff;
+        padding: 40px 0;
+        box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+
+    }
+
+    .form{
+        width: 80%;
+        margin: auto;
+    }
+
+    form .grupo{
+        position: relative;
+        margin: 45px;
+    }
+
+    input{
+        background: none;
+        color: #c6c6c6;
+        font-size: 18px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid var(--colorTextos) ;
+    }
+
+    input:focus{
+        outline: none;
+        color: #5e5d5d;
+    }
+
+   button{
+    font-family: 'roboto';
+    background: #4568DC;
+    /* fallback for old browsers  */
+    background: -webkit-linear-gradient(to right, #b06ab3,#456bdc);
+    /* chrome 10-25, safari 5.1-6 */
+    background: linear-gradient(to right, #b05AB3,#456bdc );
+    /* W3C, IE 10+/ Edge, firefox 16+, chrome 26+, opera 12+, safari 7+ */
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color:#ffff;
+    height: 40px;
+    font-size: 16px;
+  }
+
+
+    
