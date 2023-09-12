@@ -1,0 +1,25 @@
+#menu{
+    height: 50px;
+}
+
+#menu{
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+}
+nav .row {
+    float: right;
+    margin: 0;
+    justify-content: space-between;
+}
+nav .row li {
+    list-style: none;
+}
+nav .row a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+}
+nav .row a:hover {
+    background-color: #0ba89c;
+}
